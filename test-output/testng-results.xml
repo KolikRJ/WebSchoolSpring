@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="458" started-at="2017-05-26T13:21:33Z" finished-at="2017-05-26T13:21:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="458" started-at="2017-05-26T13:21:33Z" finished-at="2017-05-26T13:21:34Z">
+      <class name="ru.work.web.test.SpringTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="7" started-at="2017-05-26T19:21:33Z" finished-at="2017-05-26T19:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="426" started-at="2017-05-26T19:21:33Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-05-26T19:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-05-26T19:21:34Z" finished-at="2017-05-26T19:21:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ru.work.web.test.SpringTest.testApplicationContext() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testApplicationContext()[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="testApplicationContext" duration-ms="6" started-at="2017-05-26T19:21:34Z" finished-at="2017-05-26T19:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationContext -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-05-26T19:21:34Z" finished-at="2017-05-26T19:21:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ru.work.web.test.SpringTest.testApplicationContext() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2017-05-26T19:21:34Z" finished-at="2017-05-26T19:21:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ru.work.web.test.SpringTest.testHome() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testHome()[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="testHome" duration-ms="3" started-at="2017-05-26T19:21:34Z" finished-at="2017-05-26T19:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHome -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2017-05-26T19:21:34Z" finished-at="2017-05-26T19:21:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ru.work.web.test.SpringTest.testHome() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:ru.work.web.test.SpringTest@34c4973]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-05-26T19:21:34Z" finished-at="2017-05-26T19:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- ru.work.web.test.SpringTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
